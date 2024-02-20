@@ -1,0 +1,52 @@
+.bg-image {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  width: 20rem;
+  border: none;
+  border-radius: 20px;
+  padding: 2rem;
+  background: white;
+  /* Background of the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional: adds a shadow to the card */
+  margin-top: 50px;
+  /* Or as needed to center the card vertically */
+}
+
+.btn-custom {
+  background-color: #FFD8C0;
+  /* The color of the buttons */
+  color: #333;
+  /* The text color of the buttons */
+  border: none;
+  border-radius: 20px;
+  padding: 10px 24px;
+}
+
+.btn-custom:hover {
+  background-color: #EAB09E;
+  /* Slightly darker shade for hover effect */
+}
+
+.welcome-text {
+  font-size: 1.5rem;
+  /* Adjust as per the design */
+  color: #333;
+  /* The text color */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.bg-custom {
+  background-color: #6A8CAF;
+  /* Change this to match the top background color */
+  padding: 3rem 0;
+  border-bottom-left-radius: 100px;
+  /* To create the custom shape at the bottom */
+  border-bottom-right-radius: 100px;
+  /* To create the custom shape at the bottom */
+}
